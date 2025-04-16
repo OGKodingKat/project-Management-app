@@ -1,0 +1,60 @@
+.feedback-empty-page {
+    background-color: #F2F4FF;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  
+  .empty-state {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+
+  .feedback-img {
+    max-width: 120px;
+    margin-bottom: 1.5rem;
+  }
+  
+ 
+  .empty-state h2 {
+    font-size: 1.25rem;
+    color: #3a4374;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+
+  .empty-state p {
+    color: #647196;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .add-feedback {
+    background-color: #ad1fea;
+    color: white;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+ 
+  }
+  
+  .add-feedback:hover {
+    background-color: #c75af6;
+  }
