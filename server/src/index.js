@@ -7,9 +7,14 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-const config = {
-  connectionString: 'YOUR_POSTGRES_CONNECTION_STRING',
-};
+let config = {
+  user: process.env.USER,
+  host: process.env.HOST,
+  database: process.env.DATABASE,
+  password: process.env.PASSWORD,
+  port: process.env.DATABASE_PORT,
+  ssl: true,
+}
 
 // POST /feedbacks - Add new feedback
 app.post('/feedbacks', async (req, res) => {
