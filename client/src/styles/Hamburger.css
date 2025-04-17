@@ -57,9 +57,4 @@
     z-index: 1000;
   }
 
-  @media (min-width: 768px) {
-    .menu-btn {
-      display: none !important;
-    }
-  }
   

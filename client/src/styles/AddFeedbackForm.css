@@ -1,163 +1,96 @@
-/* === Mobile styles (base) === */
 .form-page {
-  background-color: #f2f4ff;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  padding: 2rem;
-  align-items: flex-start;
-}
-
-.form-container {
-  background-color: white;
-  padding: 2.5rem;
-  border-radius: 12px;
-  max-width: 600px;
-  width: 100%;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
-}
-
-.go-back {
-  background: none;
-  border: none;
-  color: #4661e6;
-  font-weight: bold;
-  font-size: 0.95rem;
-  margin-bottom: 1rem;
-  cursor: pointer;
-}
-
-.form-header {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 2rem;
-}
-
-.form-icon {
-  background: linear-gradient(to right, #a337f6, #c75af6);
-  color: white;
-  font-size: 1.5rem;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.form-label {
-  font-weight: bold;
-  color: #3a4374;
-  margin-top: 1.5rem;
-}
-
-.form-description {
-  font-size: 0.9rem;
-  color: #647196;
-  margin-bottom: 0.5rem;
-}
-
-.form-input {
-  width: 100%;
-  padding: 0.9rem;
-  border-radius: 10px;
-  border: none;
-  background-color: #f7f8fd;
-  margin-bottom: 1rem;
-  font-size: 1rem;
-  color: #3a4374;
-}
-
-.submit-btn {
-  background-color: #ad1fea;
-  color: white;
-  font-weight: bold;
-  border: none;
-  border-radius: 10px;
-  padding: 0.9rem;
-  width: 100%;
-  margin-top: 1rem;
-  cursor: pointer;
-}
-
-.submit-btn:hover {
-  background-color: #c75af6;
-}
-
-.cancel-btn {
-  background-color: #3a4374;
-  color: white;
-  font-weight: bold;
-  border: none;
-  border-radius: 10px;
-  padding: 0.9rem;
-  width: 100%;
-  margin-top: 0.5rem;
-  cursor: pointer;
-}
-
-/* === Tablet (≥768px) === */
-@media (min-width: 768px) {
-  .form-page {
-    padding: 3rem 2rem;
-    align-items: center;
-  }
-
-  .form-container {
-    padding: 3rem 2.5rem;
-    max-width: 700px;
-  }
-
-  .form-header h2 {
-    font-size: 1.5rem;
-  }
-
-  .form-icon {
-    font-size: 2rem;
-    width: 45px;
-    height: 45px;
-  }
-
-  .submit-btn,
-  .cancel-btn {
-    width: auto;
-    padding: 1rem 2rem;
-    font-size: 1rem;
-  }
-
-  /* Align buttons side by side */
-  .form-actions {
+    background-color: #f2f4ff;
+    min-height: 100vh;
     display: flex;
-    gap: 1rem;
-    margin-top: 2rem;
+    justify-content: center;
+    padding: 2rem;
   }
-}
-
-/* === Desktop (≥1024px) === */
-@media (min-width: 1024px) {
-  .form-page {
-    padding: 4rem 3rem;
-  }
-
+  
   .form-container {
-    max-width: 800px;
-    padding: 4rem 3rem;
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
   }
-
-  .form-header h2 {
-    font-size: 1.75rem;
+  
+  .go-back {
+    background: none;
+    border: none;
+    color: #4661e6;
+    font-weight: bold;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
   }
-
+  
+  .form-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
   .form-icon {
-    font-size: 2.25rem;
-    width: 50px;
-    height: 50px;
+    background: linear-gradient(to right, #a337f6, #c75af6);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-
-  .submit-btn,
+  
+  .form-label {
+    font-weight: bold;
+    color: #3a4374;
+    margin-top: 1.5rem;
+  }
+  
+  .form-description {
+    font-size: 0.9rem;
+    color: #647196;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 0.9rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #f7f8fd;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #3a4374;
+  }
+  
+  .submit-btn {
+    background-color: #ad1fea;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 0.9rem;
+    width: 100%;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #c75af6;
+  }
+  
   .cancel-btn {
-    padding: 1.2rem 2.5rem;
-    font-size: 1.125rem;
+    background-color: #3a4374;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 0.9rem;
+    width: 100%;
+    margin-top: 0.5rem;
+    cursor: pointer;
   }
-}
