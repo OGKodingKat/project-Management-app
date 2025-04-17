@@ -52,19 +52,19 @@ app.get('/feedbacks/:id', async (req, res) => {
 });
 
 // POST /comments - Add comment to feedback
-app.post('/comments', async (req, res) => {
-  const client = new Client(config);
-  await client.connect();
+// app.post('/comments', async (req, res) => {
+//   const client = new Client(config);
+//   await client.connect();
 
-  const { feedback_id, text } = req.body;
-  await client.query(
-    `INSERT INTO comments (feedback_id, text) VALUES ($1, $2)`,
-    [feedback_id, text]
-  );
+//   const { feedback_id, text } = req.body;
+//   await client.query(
+//     `INSERT INTO comments (feedback_id, text) VALUES ($1, $2)`,
+//     [feedback_id, text]
+//   );
 
-  await client.end();
-  res.json({ message: 'Comment added' });
-});
+//   await client.end();
+//   res.json({ message: 'Comment added' });
+// });
 
 // Start server
 app.listen(5000, () => {

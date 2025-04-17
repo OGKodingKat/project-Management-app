@@ -6,8 +6,8 @@ CREATE TABLE feedback (
   status TEXT DEFAULT 'suggestion'
 );
 
-CREATE TABLE comments (
-  id SERIAL PRIMARY KEY,
-  feedback_id INTEGER REFERENCES feedback(id),
-  text TEXT NOT NULL
-);
+-- CREATE TABLE comments (
+--   id SERIAL PRIMARY KEY,
+--   feedback_id INTEGER REFERENCES feedback(id),
+--   text TEXT NOT NULL
+-- );
