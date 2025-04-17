@@ -18,11 +18,6 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
   }
   
-
-  .feedback-img {
-    max-width: 120px;
-    margin-bottom: 1.5rem;
-  }
   
  
   .empty-state h2 {
@@ -58,3 +53,41 @@
   .add-feedback:hover {
     background-color: #c75af6;
   }
+
+  .feedback-page {
+    background-color: #F2F4FF;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+  
+  .feedback-list {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .feedback-list h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #3a4374;
+  }
+  
+  .feedback-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+  }
+  
+  .feedback-card h3 {
+    color: #3a4374;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .feedback-card p {
+    color: #647196;
+    font-size: 0.95rem;
+    margin: 0.3rem 0;
+  }
+  
