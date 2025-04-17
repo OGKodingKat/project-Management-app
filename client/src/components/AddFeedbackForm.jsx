@@ -18,7 +18,7 @@ const AddFeedbackForm = () => {
     };
   
     try {
-      const response = await fetch('https://project-management-app-gqqj.onrender.com/feedbacks', {
+      const response = await fetch('/api/feedbacks', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
