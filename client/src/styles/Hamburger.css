@@ -62,14 +62,7 @@
     display: none;
   }
   .hamburger-menu {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    position: static;
-    margin-top: 0;
-    width: 100%;
-    height: auto;
-    box-shadow: none;
-    border-left: none;
+    
   }
  }
     
