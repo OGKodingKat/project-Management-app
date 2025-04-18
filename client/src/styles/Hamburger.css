@@ -58,7 +58,9 @@
   }
 
  @media (min-width: 768px) {
-    .hamburger-menu {
-        display: none;
-    }
+  .menu-btn {
+    display: none;
+  }
+  
+ }
     
